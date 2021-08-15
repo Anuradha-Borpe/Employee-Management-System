@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Registration Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/nav.css">
+
+<link type="text/css" rel="stylesheet" href="reg1.css">
+<link type="text/css" rel="stylesheet" href="style.css">
+
+
+
+</style>
+
+</head>
+<body>
+
+<br>
+
+<form action="GlobalServlet?choice=register" method="post">
+      <h1>SIGN UP</h1>
+      <div class="icon">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <div class="formcontainer">
+      <div class="container">
+        <label for="uname"><strong>Name</strong></label>
+        <input type="text" placeholder="Enter Username" name="fname" required>
+        <label for="mail"><strong>E-mail</strong></label>
+        <input type="text" placeholder="Enter E-mail" name="email" required>
+        <label for="psw"><strong>Password</strong></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+        <label for="ad"><strong>Address</strong></label>
+        <input type="text" placeholder="Enter Address" name="address" required>
+       
+      </div>
+      <button type="submit"><strong>SIGN UP</strong></button>
+     
+     
+    
+      </div>
+      
+    </form>
+	
+</body>
+</html>
