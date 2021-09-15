@@ -16,7 +16,7 @@ public class WhatsappDAO implements WhatsappDAOInterface {
 	public WhatsappDAO() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webpage", "root", "ADShivankar0099@");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/webpage", "root", "Anuradha");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

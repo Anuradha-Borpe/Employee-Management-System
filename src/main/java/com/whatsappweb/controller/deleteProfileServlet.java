@@ -17,7 +17,7 @@ import com.whatsappweb.utility.ControllerFactory;
 
 public class deleteProfileServlet extends HttpServlet {
 	
-
+//deleteServlet
 	
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession ss=request.getSession(true);
